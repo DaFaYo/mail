@@ -1,0 +1,34 @@
+textarea {
+    min-height: 400px;
+}
+
+.emailMain { 
+    float: left;
+}
+
+.emailSecondary { 
+    float: right;
+    margin: 10px;
+}
+
+.inline { 
+    display:inline-block;
+    margin: 10px;
+}
+
+#emailDiv {
+    border: 2px solid black;
+    overflow: hidden;
+}    
+
+#senderDiv {
+    font-weight: bolder;
+}
+
+#subjectDiv {
+    font-weight: normal;
+}
+
+#timestampDiv {
+    font-weight: lighter;
+}
